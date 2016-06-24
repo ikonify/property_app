@@ -1,2 +1,93 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+h5 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 15px;
+}
+
+// FRONT PAGE HERO STYLES
+.hero-unit {
+    margin-top: 0px;
+    background-image: asset-url('hero-small-2up.jpg');
+    background-size: fill;
+    background-color: #EEEEEE;
+    height:800px;
+  }
+.hero-bottom {
+    margin-top: 0px;
+    background-image: asset-url('hero-small-2down.jpg');
+    background-size: fill;
+    background-color: #EEEEEE;
+    height:100px;
+}
+.hero-unit h1 {
+    color: #FFFFFF;
+    font-size: 4em;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 15%;
+    text-shadow: 3px 3px 10px #000;
+}
+.hero-unit h2 {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.hero-search, .hero-button {
+  padding-top: 40px;
+}
+
+.hero-unit .form-control {
+  height: 56px;
+}
+
+.hero-btn {
+    height: 56px;
+    padding-top: 16px;
+}
+
+.hero-bottom {
+    color:#fff;
+    padding:0;
+    line-height: 100px;
+}
+.hero-bottom-content {
+    width: 100%;
+    height:100%;
+    background-color: rgba(49, 48, 93, 0.9);
+}
+
+// FRONT PAGE CALL TO ACTION STYLE
+.cta {
+    margin-top: 80px;
+}
+.cta1 {
+    height: 200px;
+}
+.cta-title {
+    padding:15px;
+}
+.cta-title h3 {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.cta-icon {
+    font-size: 46px;
+    color: #45446d;
+}
+
+// VERTAILE
+
+.vertaile {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+@media (max-width: 768px) {
+    .hero-btn-div {
+      padding-top: 15px;
+    }
+}
